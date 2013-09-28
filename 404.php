@@ -1,6 +1,6 @@
 <?php
 /**
- * Based on Starkers Naked Theme
+ * Based on Starkers 4.0 Naked Theme
  */
 ?>
 <?php alink_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>

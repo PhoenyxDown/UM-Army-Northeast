@@ -1,12 +1,6 @@
 <?php
 /**
- * The template used to display Tag Archive pages
- *
- * Please see /external/starkers-utilities.php for info on alink_Utilities::get_template_parts()
- *
- * @package 	WordPress
- * @subpackage 	alink
- * @since 		alink 4.0
+ * Based on Starkers 4.0 Naked Theme
  */
 ?>
 <?php alink_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>

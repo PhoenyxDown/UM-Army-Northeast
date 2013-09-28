@@ -1,6 +1,6 @@
 <?php
 /**
- * Based on Starkers Naked Theme
+ * Based on Starkers 4.0 Naked Theme
  */
 ?>
 <div id="comments">

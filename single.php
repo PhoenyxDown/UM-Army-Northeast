@@ -1,5 +1,6 @@
 <?php
 /**
+ * Based on Starkers 4.0 Naked Theme
  */
 ?>
 

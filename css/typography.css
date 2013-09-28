@@ -1,0 +1,377 @@
+/*
+Fonts:
+Montserrat, Arial, Helvetica, sans-serif;
+"Open Sans", Helvetica, Arial, sans-serif;
+"Open Sans Condensed", "Arial Narrow", Arial, sans-serif;
+"Oswald", Helvetica, sans-serif;
+Sanchez, "Times New Roman", Times, serif;
+
+Colors:
+Red: #e82c23
+Red Alpha: rgba(232,44,35,1.0)
+
+Blue: #2d357e
+Blue Alpha: rgba(45,53,126,1.0)
+
+Header Gray: #464646
+Paragraph Gray: #707070
+*/
+
+
+a {
+	text-decoration: none;
+}
+
+.highlight {
+	color: #e82c23;
+	font-style: italic;
+}
+
+.highlight a {
+	text-decoration: underline;
+}
+
+/******************************
+			HEADER
+*******************************/
+
+.maintitle {
+	color: #2d357e;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 45px;
+}
+
+.subtitle {
+	color: #e82c23;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	letter-spacing: .2em;
+}
+
+#headerlogo_title {
+	line-height: 25px;
+	margin-top: 40px;
+}
+
+#header_redstripe p, #header_redstripe a {
+	color: white;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 5px;
+	margin: 0 1px;
+}
+
+#header_redstripe p {
+	float:right;
+}
+
+.header_separator {
+	margin: 0 10px;
+}
+
+/******************************
+			FOOTER
+*******************************/
+
+#copyright p {
+	color:white;
+	font-family: Sanchez, "Times New Roman", Times, serif;
+	font-size: 10px;
+	line-height:  30px;
+}
+
+#copyright a {
+	color: white;
+}
+
+#copyright a:hover {
+	text-decoration:underline;
+}
+
+.copy_left {float:left;}
+.copy_right {float:right;}
+
+
+#widget_footer h3{
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 15px;
+	color: #e82c23;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+#widget_footer p, #widget_footer .footer-widget a {
+	color: white;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+#widget_footer .footer-widget a:hover {
+	color: #e82c23;
+}
+
+#widget_footer strong {
+	font-weight: bold;
+}
+
+h4.footer-entry-title a{
+	font-weight: 700;
+	font-size: 11px!important;
+}
+
+#widget_footer .footer-entry-date, #sidebar .post-date {
+	float:right;
+	font-family: Sanchez, "Times New Roman", Times, serif!important;
+	font-size: 10px;
+	font-style: italic;
+	color: white;
+}
+
+/******************************
+			HOME
+*******************************/
+
+#tab_blurb p {
+	color: white;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 98px;
+	text-shadow: 0px -1px 1px #555;
+	filter: dropshadow(color=#555, offx=0, offy=-1);
+}
+
+#content p, #home_content p, #content ul, #content td, #content th {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	text-align: justify;
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #707070;
+}
+
+#content ul {
+	padding: 0 50px;
+}
+
+#content li {
+	margin-bottom: 10px;
+	list-style: disc outside none;
+}
+
+#content a, #home_content a {
+	color: #e82c23;
+}
+
+#content a:hover, #home_content a:hover {
+	text-decoration: underline;
+}
+
+h3 {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 20px;
+	color: #464646;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+h4.entry-title, h4.entry-title a{
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #2d357e!important;
+}
+
+#home_content .entry-excerpt p {
+	font-size: 10px;
+	margin-bottom: 3px;
+	text-align: left;
+}
+
+.wp-pagenavi .pages, .wp-pagenavi .page, .wp-pagenavi .nextpostslink {
+	float:right;
+	color: white !important;
+	background-color:  #e82c23;
+	padding: 15px;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.wp-pagenavi .current {
+	float:right;
+	padding: 14px;
+	background-color: white;
+	border: 1px solid #e82c23;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 10px;
+	color: #e82c23;
+}
+
+p.more {
+	padding: 20px 0;
+}
+
+.bigredbox, .wpcf7-submit {
+	color: white !important;
+	background-color:  #e82c23;
+	padding: 15px;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border: 0;
+}
+
+#home_content .excerpt_more {
+	float:right;
+	font-style: italic;
+	font-size:10px;
+}
+
+#home_content .entry-date p{
+	font-family: Sanchez, "Times New Roman", Times, serif!important;
+	color: #898989!important;
+	float:right;
+	font-size: 9px !important;
+	font-weight:400;
+	font-style: italic;
+	clear:both;
+	margin-top: -6px;
+}
+
+/******************************
+			SUB PAGES
+*******************************/
+
+h2 {
+	font-family: "Oswald", Helvetica, sans-serif;
+	font-size: 65px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .03em;
+	padding-top: 28px
+}
+
+#breadcrumbs {
+	position:absolute;
+	top: 75px;
+	right: 0;
+	font-family: Sanchez, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: red;
+}
+
+#breadcrumbs a {
+	color: white;
+	text-transform: uppercase;
+}
+
+#breadcrumbs a:hover {
+	text-decoration: underline;
+}
+
+.blog_date {
+	font-style: italic;
+	float:right;
+	margin-top:7px;
+	font-family: Sanchez, "Times New Roman", Times, serif !important;
+}
+
+h3.blog_title {
+	margin-bottom: 0;	
+}
+
+.tablepress-id-1 td.column-2 {
+	font-style: italic;
+}
+
+.tablepress thead th, .tablepress tfoot th {
+	background-color: #e2e2e2!important;
+}
+
+/******************************
+			SIDEBAR
+*******************************/
+input#s {
+	width: 144px;
+	height: 26px;
+	border: 1px solid #464646;
+}
+
+input#searchsubmit {
+	background-color:#2d357e;
+	width: 34px;
+	margin-left: 5px;
+	color: white;
+	height: 29px;
+	border: 0;
+}
+
+#sidebar {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#sidebar a{
+	color: #e82c23;
+}
+
+#sidebar .post-date {
+	color: #464646;
+	float: right;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+#sidebar .widget ul li {
+	clear:both;
+	margin-bottom: 15px;
+}
+
+.quotescollection_randomquote p{
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 25px;
+	text-align: justify;
+}
+
+q:before{
+	font-family: "Oswald", Helvetica, sans-serif;
+	float:left;
+	background: url(../images/quotes_open.png) center bottom no-repeat transparent;
+	width: 43px;
+	height: 41px;
+	margin-right: 5px;
+	text-indent: -9999;
+}
+
+q:after {
+	font-family: "Oswald", Helvetica, sans-serif;
+	float:right;
+	background: url(../images/quotes_close.png) center top no-repeat transparent;
+	width: 43px;
+	height: 40px;
+	margin-left: 5px;
+	margin-top: -3px;
+}
+
+q:lang(en) {
+	quotes: none;
+}
+
+#quick_connect p {
+	font-size: 12px;
+	color: #464646;
+	clear:both;
+}
+
+.wpcf7-submit {
+	float:right;
+	clear:both;
+	font-size:12px;
+	padding: 10px 15px;
+}
+
+textarea {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}

@@ -2,14 +2,14 @@
 /**
  * The template used to display Tag Archive pages
  *
- * Please see /external/starkers-utilities.php for info on Starkers_Utilities::get_template_parts()
+ * Please see /external/starkers-utilities.php for info on alink_Utilities::get_template_parts()
  *
  * @package 	WordPress
- * @subpackage 	Starkers
- * @since 		Starkers 4.0
+ * @subpackage 	alink
+ * @since 		alink 4.0
  */
 ?>
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <?php if ( have_posts() ): ?>
 <div id="page_header">
@@ -53,6 +53,6 @@
 	</div><!--content!-->
 </div><!--sub_content!-->
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
 
 

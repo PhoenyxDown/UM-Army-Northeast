@@ -1,20 +1,9 @@
 <?php
-
-	/**
-	 * Starkers_Utilities
-	 *
-	 * Starkers Utilities Class v.1.1
-	 *
-	 * @package 	WordPress
-	 * @subpackage 	Starkers
-	 * @since 		Starkers 4.0
-	 *
-	 * We've included a number of helper functions that we use in every theme we produce.
-	 * The main one that is used in Starkers is Starkers_Utilities::add_slug_to_body_class(), this will add the page or post slug to the body class
-	 *
-	 */
-	 
-	 class Starkers_Utilities {
+/**
+ * Based on Starkers Naked Theme
+ */
+ 
+	 class alink_Utilities {
 
     	/**
     	 * Print a pre formatted array to the browser - very useful for debugging
@@ -46,7 +35,7 @@
 
     	/**
     	 * Pass in a path and get back the page ID
-    	 * e.g. Starkers_Utilities::get_page_id_from_path('about/terms-and-conditions');
+    	 * e.g. alink_Utilities::get_page_id_from_path('about/terms-and-conditions');
     	 *
     	 * @param 	string 
     	 * @return 	integer

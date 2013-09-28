@@ -6,7 +6,7 @@
 
 
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 <div id="page_header">
@@ -43,4 +43,4 @@
 <div class="clear_both"></div>
 
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

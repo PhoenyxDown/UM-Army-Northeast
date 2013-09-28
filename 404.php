@@ -1,15 +1,9 @@
 <?php
 /**
- * The template for displaying 404 pages (Not Found)
- *
- * Please see /external/starkers-utilities.php for info on Starkers_Utilities::get_template_parts()
- *
- * @package 	WordPress
- * @subpackage 	Starkers
- * @since 		Starkers 4.0
+ * Based on Starkers Naked Theme
  */
 ?>
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <div id="page_header">
 	<div class="shadowleft"></div>
@@ -40,4 +34,4 @@
 <div class="clear_both"></div>
 
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

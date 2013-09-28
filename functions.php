@@ -1,14 +1,6 @@
 <?php
 	/**
-	 * Starkers functions and definitions
-	 *
-	 * For more information on hooks, actions, and filters, see http://codex.wordpress.org/Plugin_API.
-	 *
- 	 * @package 	WordPress
- 	 * @subpackage 	Starkers
- 	 * @since 		Starkers 4.0
-	 */
-
+	 * Based on Starkers Naked Theme
 	/* ========================================================================================================================
 	
 	Required external files
@@ -38,7 +30,7 @@
 
 	add_action( 'wp_enqueue_scripts', 'starkers_script_enqueuer' );
 
-	add_filter( 'body_class', array( 'Starkers_Utilities', 'add_slug_to_body_class' ) );
+	add_filter( 'body_class', array( 'alink_Utilities', 'add_slug_to_body_class' ) );
 	
 	add_filter('widget_text', 'do_shortcode');
 	

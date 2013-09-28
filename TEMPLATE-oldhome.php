@@ -3,7 +3,7 @@
  */
 ?>
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <div id="home_slider">
 	<div class="shadowleft"></div>
@@ -107,4 +107,4 @@
 
 <div class="clear_both"></div>
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>

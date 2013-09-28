@@ -3,7 +3,7 @@
 Template Name: Blog
  */
 ?>
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <?php if ( have_posts() ): ?>
 <div id="page_header">
@@ -51,4 +51,4 @@ Template Name: Blog
 	</div><!--content!-->
 </div><!--sub_content!-->
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

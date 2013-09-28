@@ -1,20 +1,9 @@
 <?php
 /**
- * The template for displaying Archive pages.
- *
- * Used to display archive-type pages if nothing more specific matches a query.
- * For example, puts together date-based pages if no date.php file exists.
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * Please see /external/starkers-utilities.php for info on Starkers_Utilities::get_template_parts() 
- *
- * @package 	WordPress
- * @subpackage 	Starkers
- * @since 		Starkers 4.0
+ * Based on Starkers Naked Theme
  */
 ?>
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <?php if ( have_posts() ): ?>
 
@@ -68,4 +57,4 @@
 	</div><!--content!-->
 </div><!--sub_content!-->
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
+<?php alink_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
